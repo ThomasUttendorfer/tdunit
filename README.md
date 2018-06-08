@@ -1,2 +1,2 @@
 # tdunit
-Unit-Test frameword for Gupta SqlWindows TeamDeveloper (OpenText)
+Unit-Test framework for Gupta SqlWindows TeamDeveloper (OpenText)
