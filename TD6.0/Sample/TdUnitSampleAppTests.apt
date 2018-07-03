@@ -1,0 +1,475 @@
+.head 0 +  Application Description: Gupta SQLWindows Standard Application Template
+.head 1 -  Outline Version - 4.0.35
+.head 1 +  Design-time Settings
+.data VIEWINFO
+0000: 6F00000001000000 FFFF01000D004347 5458566965775374 6174650400010000
+0020: 0000000000A50000 002C000000020000 0003000000FFFFFF FFFFFFFFFFF8FFFF
+0040: FFE1FFFFFFFFFFFF FF000000007C0200 004D010000010000 0001000000010000
+0060: 000F4170706C6963 6174696F6E497465 6D00000000
+.enddata
+.head 2 -  Outline Window State: Normal
+.head 2 +  Outline Window Location and Size
+.data VIEWINFO
+0000: 6600040003002D00 0000000000000000 0000B71E5D0E0500 1D00FFFF4D61696E
+0020: 0000000000000000 0000000000000000 0000003B00010000 00000000000000E9
+0040: 1E800A00008600FF FF496E7465726E61 6C2046756E637469 6F6E730000000000
+0060: 0000000000000000 0000000000003200 0100000000000000 0000E91E800A0000
+0080: DF00FFFF56617269 61626C6573000000 0000000000000000 0000000000000000
+00A0: 3000010000000000 00000000F51E100D 0000F400FFFF436C 6173736573000000
+00C0: 0000000000000000 0000000000000000
+.enddata
+.data VIEWSIZE
+0000: D000
+.enddata
+.head 3 -  Left: -0.013"
+.head 3 -  Top: 0.0"
+.head 3 -  Width:  8.013"
+.head 3 -  Height: 4.969"
+.head 2 +  Options Box Location
+.data VIEWINFO
+0000: D4180909B80B1A00
+.enddata
+.data VIEWSIZE
+0000: 0800
+.enddata
+.head 3 -  Visible? No
+.head 3 -  Left: 4.15"
+.head 3 -  Top: 1.885"
+.head 3 -  Width:  3.8"
+.head 3 -  Height: 2.073"
+.head 2 +  Class Editor Location
+.head 3 -  Visible? No
+.head 3 -  Left: 0.575"
+.head 3 -  Top: 0.094"
+.head 3 -  Width:  5.063"
+.head 3 -  Height: 2.719"
+.head 2 +  Tool Palette Location
+.head 3 -  Visible? No
+.head 3 -  Left: 6.388"
+.head 3 -  Top: 0.729"
+.head 2 -  Fully Qualified External References? Yes
+.head 2 -  Reject Multiple Window Instances? No
+.head 2 -  Enable Runtime Checks Of External References? Yes
+.head 2 -  Use Release 4.0 Scope Rules? No
+.head 2 -  Edit Fields Read Only On Disable? No
+.head 1 +  Libraries
+.head 2 -  File Include: ..\tdunit.apl
+.head 2 -  File Include: TdUnitSampleApp.apt
+.head 1 +  Global Declarations
+.head 2 +  Window Defaults
+.head 3 +  Tool Bar
+.head 4 -  Display Style? Etched
+.head 4 -  Font Name: MS Sans Serif
+.head 4 -  Font Size: 8
+.head 4 -  Font Enhancement: System Default
+.head 4 -  Text Color: System Default
+.head 4 -  Background Color: System Default
+.head 3 +  Form Window
+.head 4 -  Display Style? Etched
+.head 4 -  Font Name: MS Sans Serif
+.head 4 -  Font Size: 8
+.head 4 -  Font Enhancement: System Default
+.head 4 -  Text Color: System Default
+.head 4 -  Background Color: System Default
+.head 3 +  Dialog Box
+.head 4 -  Display Style? Etched
+.head 4 -  Font Name: MS Sans Serif
+.head 4 -  Font Size: 8
+.head 4 -  Font Enhancement: System Default
+.head 4 -  Text Color: System Default
+.head 4 -  Background Color: System Default
+.head 3 +  Top Level Table Window
+.head 4 -  Font Name: MS Sans Serif
+.head 4 -  Font Size: 8
+.head 4 -  Font Enhancement: System Default
+.head 4 -  Text Color: System Default
+.head 4 -  Background Color: System Default
+.head 3 +  Data Field
+.head 4 -  Font Name: Use Parent
+.head 4 -  Font Size: Use Parent
+.head 4 -  Font Enhancement: Use Parent
+.head 4 -  Text Color: Use Parent
+.head 4 -  Background Color: Use Parent
+.head 3 +  Multiline Field
+.head 4 -  Font Name: Use Parent
+.head 4 -  Font Size: Use Parent
+.head 4 -  Font Enhancement: Use Parent
+.head 4 -  Text Color: Use Parent
+.head 4 -  Background Color: Use Parent
+.head 3 +  Spin Field
+.head 4 -  Font Name: Use Parent
+.head 4 -  Font Size: Use Parent
+.head 4 -  Font Enhancement: Use Parent
+.head 4 -  Text Color: Use Parent
+.head 4 -  Background Color: Use Parent
+.head 3 +  Background Text
+.head 4 -  Font Name: Use Parent
+.head 4 -  Font Size: Use Parent
+.head 4 -  Font Enhancement: Use Parent
+.head 4 -  Text Color: Use Parent
+.head 4 -  Background Color: Use Parent
+.head 3 +  Pushbutton
+.head 4 -  Font Name: Use Parent
+.head 4 -  Font Size: Use Parent
+.head 4 -  Font Enhancement: Use Parent
+.head 3 +  Radio Button
+.head 4 -  Font Name: Use Parent
+.head 4 -  Font Size: Use Parent
+.head 4 -  Font Enhancement: Use Parent
+.head 4 -  Text Color: Use Parent
+.head 4 -  Background Color: Use Parent
+.head 3 +  Check Box
+.head 4 -  Font Name: Use Parent
+.head 4 -  Font Size: Use Parent
+.head 4 -  Font Enhancement: Use Parent
+.head 4 -  Text Color: Use Parent
+.head 4 -  Background Color: Use Parent
+.head 3 +  Option Button
+.head 4 -  Font Name: Use Parent
+.head 4 -  Font Size: Use Parent
+.head 4 -  Font Enhancement: Use Parent
+.head 3 +  Group Box
+.head 4 -  Font Name: Use Parent
+.head 4 -  Font Size: Use Parent
+.head 4 -  Font Enhancement: Use Parent
+.head 4 -  Text Color: Use Parent
+.head 4 -  Background Color: Use Parent
+.head 3 +  Child Table Window
+.head 4 -  Font Name: Use Parent
+.head 4 -  Font Size: Use Parent
+.head 4 -  Font Enhancement: Use Parent
+.head 4 -  Text Color: Use Parent
+.head 4 -  Background Color: Use Parent
+.head 3 +  List Box
+.head 4 -  Font Name: Use Parent
+.head 4 -  Font Size: Use Parent
+.head 4 -  Font Enhancement: Use Parent
+.head 4 -  Text Color: Use Parent
+.head 4 -  Background Color: Use Parent
+.head 3 +  Combo Box
+.head 4 -  Font Name: Use Parent
+.head 4 -  Font Size: Use Parent
+.head 4 -  Font Enhancement: Use Parent
+.head 4 -  Text Color: Use Parent
+.head 4 -  Background Color: Use Parent
+.head 3 +  Line
+.head 4 -  Line Color: Use Parent
+.head 3 +  Frame
+.head 4 -  Border Color: Use Parent
+.head 4 -  Background Color: 3D Face Color
+.head 3 +  Picture
+.head 4 -  Border Color: Use Parent
+.head 4 -  Background Color: Use Parent
+.head 2 +  Formats
+.head 3 -  Number: 0'%'
+.head 3 -  Number: #0
+.head 3 -  Number: ###000
+.head 3 -  Number: ###000;'($'###000')'
+.head 3 -  Date/Time: hh:mm:ss AMPM
+.head 3 -  Date/Time: M/d/yy
+.head 3 -  Date/Time: MM-dd-yy
+.head 3 -  Date/Time: dd-MMM-yyyy
+.head 3 -  Date/Time: MMM d, yyyy
+.head 3 -  Date/Time: MMM d, yyyy hh:mm AMPM
+.head 3 -  Date/Time: MMMM d, yyyy hh:mm AMPM
+.head 2 +  External Functions
+.head 2 +  Constants
+.data CCDATA
+0000: 3000000000000000 0000000000000000 00000000
+.enddata
+.data CCSIZE
+0000: 1400
+.enddata
+.head 3 +  System
+.head 3 +  User
+.head 3 +  Enumerations
+.head 2 -  Resources
+.head 2 +  Variables
+.head 2 +  Internal Functions
+.head 2 -  Named Menus
+.head 2 +  Class Definitions
+.data RESOURCE 0 0 1 585116669
+0000: B3020000D8010000 0000000000000000 0200000200FFFF01 00160000436C6173
+0020: 73566172004F7574 6C696E6552006567 496E666F9D003C00 000A5F004572726F
+0040: 7242617300658A01 00000D00001E0019 00000200018E0105 000006007C017300
+0060: 00680001000019B3 00190084018E0600 00003D7C00011A00 003200002C001900
+0080: 018E61070000007C 8F00010006004B00 0000194B00018E08 D80000007CA30001
+00A0: 0000016400000004 00000200028E0109 0000F6007C6C0001 0068B00000000400
+00C0: 86020A0000003D7C 00011B006C0000AC 00040002610B0000 007CCF0001060070
+00E0: 000000040B00038E 010CD80000007CB3 000100C174000000 049A00020D00F600
+0100: 7C6C00010078B000 0000040086020E00 00003D7C00011B00 7C0000AC00040003
+0120: 610F0000007CCE01 0001160080000004 6B000310D8000000 7CB3000100C18400
+0140: 0000191200018E11 0000F6007C680001 00000180805B0000 0001000000076364
+0160: 6B497465806DDE00 00000700DE0004D0 0001028E06FE0083 80010000007F04B3
+0180: 000400B602070021 2C03730000019A00 0008002C00190001 8E6D09002C8F0001
+01A0: 0006002100000019 4B00018E0ADB002C A300010000C13A00 000004DA00030BF6
+01C0: 002C6C0001003EB0 0000000400B6030C 003D2C00011B0042 00002C001900018E
+01E0: 6D0D002C8F000100 0600
+.enddata
+.head 3 +  Functional Class: InternalFunctionsTests
+.head 4 -  Description:
+.head 4 +  Derived From
+.head 5 -  Class: _UnitTestBase
+.head 4 -  Class Variables
+.head 4 -  Instance Variables
+.head 4 +  Functions
+.head 5 +  Function: GetContext
+.head 6 -  Description: Must be overwritten in descendant class!
+.head 6 +  Returns
+.head 7 -  String:
+.head 6 -  Parameters
+.head 6 -  Static Variables
+.head 6 -  Local variables
+.head 6 +  Actions
+.head 7 -  Return SalContextCurrent(  )
+.head 5 -  !
+.head 5 +  Function: Calculator_EmptyString_Zero
+.head 6 -  Description:
+.head 6 -  Returns
+.head 6 -  Parameters
+.head 6 -  Static Variables
+.head 6 +  Local variables
+.head 7 -  Number: rnOut
+.head 7 -  Boolean: bRet
+.head 6 +  Actions
+.head 7 -  Set bRet = Calculator( '', rnOut )
+.head 7 -  Call AssertAreEqualNumbers( rnOut , 0, '' )
+.head 5 +  Function: Calculator_1_1
+.head 6 -  Description:
+.head 6 -  Returns
+.head 6 -  Parameters
+.head 6 -  Static Variables
+.head 6 +  Local variables
+.head 7 -  Number: rnOut
+.head 7 -  Boolean: bRet
+.head 6 +  Actions
+.head 7 -  Set bRet = Calculator( '1', rnOut )
+.head 7 -  Call AssertAreEqualNumbers( rnOut , 1, '' )
+.head 5 +  Function: Calculator_neg1_neg1
+.head 6 -  Description:
+.head 6 -  Returns
+.head 6 -  Parameters
+.head 6 -  Static Variables
+.head 6 +  Local variables
+.head 7 -  Number: rnOut
+.head 7 -  Boolean: bRet
+.head 6 +  Actions
+.head 7 -  Set bRet = Calculator( '-1', rnOut )
+.head 7 -  Call AssertAreEqualNumbers( rnOut , -1, '' )
+.head 5 +  Function: Calculator_pos1_neg1
+.head 6 -  Description:
+.head 6 -  Returns
+.head 6 -  Parameters
+.head 6 -  Static Variables
+.head 6 +  Local variables
+.head 7 -  Number: rnOut
+.head 7 -  Boolean: bRet
+.head 6 +  Actions
+.head 7 -  Set bRet = Calculator( '+1', rnOut )
+.head 7 -  Call AssertAreEqualNumbers( rnOut , 1, '' )
+.head 5 +  Function: Calculator_1plus2_3
+.head 6 -  Description:
+.head 6 -  Returns
+.head 6 -  Parameters
+.head 6 -  Static Variables
+.head 6 +  Local variables
+.head 7 -  Number: rnOut
+.head 7 -  Boolean: bRet
+.head 6 +  Actions
+.head 7 -  Set bRet = Calculator( '1 + 2', rnOut )
+.head 7 -  Call AssertAreEqualNumbers( rnOut , 3, '' )
+.head 5 +  Function: Calculator_neg1plus2neg3plus4_4
+.head 6 -  Description:
+.head 6 -  Returns
+.head 6 -  Parameters
+.head 6 -  Static Variables
+.head 6 +  Local variables
+.head 7 -  Number: rnOut
+.head 7 -  Boolean: bRet
+.head 6 +  Actions
+.head 7 -  Set bRet = Calculator( '-1 + 2-3 +4', rnOut )
+.head 7 -  Call AssertAreEqualNumbers( rnOut , 2, '' )
+.head 5 +  Function: Calculator_neg1neg20neg300_neg321
+.head 6 -  Description:
+.head 6 -  Returns
+.head 6 -  Parameters
+.head 6 -  Static Variables
+.head 6 +  Local variables
+.head 7 -  Number: rnOut
+.head 7 -  Boolean: bRet
+.head 6 +  Actions
+.head 7 -  Set bRet = Calculator( '-1 -20 -300', rnOut )
+.head 7 -  Call AssertAreEqualNumbers( rnOut , -321, '' )
+.head 5 +  Function: Calculator_InvalidChar_False
+.head 6 -  Description:
+.head 6 -  Returns
+.head 6 -  Parameters
+.head 6 -  Static Variables
+.head 6 +  Local variables
+.head 7 -  Number: rnOut
+.head 6 +  Actions
+.head 7 -  Call AssertIsFalse( Calculator( '1+a-b', rnOut), '' )
+.head 5 +  Function: Calculator_InvalidChar_0
+.head 6 -  Description:
+.head 6 -  Returns
+.head 6 -  Parameters
+.head 6 -  Static Variables
+.head 6 +  Local variables
+.head 7 -  Number: rnOut
+.head 7 -  Boolean: bRet
+.head 6 +  Actions
+.head 7 -  Set rnOut = 5
+.head 7 -  Set bRet = Calculator( '1 + 2 + b', rnOut )
+.head 7 -  Call AssertAreEqualNumbers( rnOut , 0, '' )
+.head 5 +  Function: Calculator_1234_TRUE
+.head 6 -  Description:
+.head 6 -  Returns
+.head 6 -  Parameters
+.head 6 -  Static Variables
+.head 6 +  Local variables
+.head 7 -  Number: rnOut
+.head 6 +  Actions
+.head 7 -  Call AssertIsTrue( Calculator( '1234', rnOut), '' )
+.head 5 -  !
+.head 5 +  Function: IsOperator_Plus_True
+.head 6 -  Description:
+.head 6 -  Returns
+.head 6 -  Parameters
+.head 6 -  Static Variables
+.head 6 -  Local variables
+.head 6 +  Actions
+.head 7 -  Call AssertIsTrue(IsOperator( '+' ), '' )
+.head 5 +  Function: IsOperator_Neg_True
+.head 6 -  Description:
+.head 6 -  Returns
+.head 6 -  Parameters
+.head 6 -  Static Variables
+.head 6 -  Local variables
+.head 6 +  Actions
+.head 7 -  Call AssertIsTrue(IsOperator( '-' ), '' )
+.head 5 +  Function: IsOperator_Slash_False
+.head 6 -  Description:
+.head 6 -  Returns
+.head 6 -  Parameters
+.head 6 -  Static Variables
+.head 6 -  Local variables
+.head 6 +  Actions
+.head 7 -  Call AssertIsFalse(IsOperator( '/' ), '' )
+.head 5 +  Function: IsOperator_Asterisk_False
+.head 6 -  Description:
+.head 6 -  Returns
+.head 6 -  Parameters
+.head 6 -  Static Variables
+.head 6 -  Local variables
+.head 6 +  Actions
+.head 7 -  Call AssertIsFalse(IsOperator( '*' ), '' )
+.head 5 +  Function: IsOperator_Digit_False
+.head 6 -  Description:
+.head 6 -  Returns
+.head 6 -  Parameters
+.head 6 -  Static Variables
+.head 6 -  Local variables
+.head 6 +  Actions
+.head 7 -  Call AssertIsFalse(IsOperator( '2' ), '' )
+.head 5 +  Function: IsOperator_Blank_False
+.head 6 -  Description:
+.head 6 -  Returns
+.head 6 -  Parameters
+.head 6 -  Static Variables
+.head 6 -  Local variables
+.head 6 +  Actions
+.head 7 -  Call AssertIsFalse(IsOperator( ' ' ), '' )
+.head 5 -  !
+.head 5 +  Function: IsDigit_0_True
+.head 6 -  Description:
+.head 6 -  Returns
+.head 6 -  Parameters
+.head 6 -  Static Variables
+.head 6 -  Local variables
+.head 6 +  Actions
+.head 7 -  Call AssertIsTrue(IsDigit('0'), '' )
+.head 5 +  Function: IsDigit_9_True
+.head 6 -  Description:
+.head 6 -  Returns
+.head 6 -  Parameters
+.head 6 -  Static Variables
+.head 6 -  Local variables
+.head 6 +  Actions
+.head 7 -  Call AssertIsTrue(IsDigit('9'), '' )
+.head 5 +  Function: IsDigit_Slash_False
+.head 6 -  Description:
+.head 6 -  Returns
+.head 6 -  Parameters
+.head 6 -  Static Variables
+.head 6 -  Local variables
+.head 6 +  Actions
+.head 7 -  Call AssertIsFalse(IsDigit('/'), '' )
+.head 5 +  Function: IsDigit_Fullstop_False
+.head 6 -  Description:
+.head 6 -  Returns
+.head 6 -  Parameters
+.head 6 -  Static Variables
+.head 6 -  Local variables
+.head 6 +  Actions
+.head 7 -  Call AssertIsFalse(IsDigit(':'), '' )
+.head 5 -  !
+.head 5 +  Function: IsWhiteSpace_Blank_True
+.head 6 -  Description:
+.head 6 -  Returns
+.head 6 -  Parameters
+.head 6 -  Static Variables
+.head 6 -  Local variables
+.head 6 +  Actions
+.head 7 -  Call AssertIsTrue( IsWhitespace( ' '), '' )
+.head 5 +  Function: IsWhiteSpace_Tab_True
+.head 6 -  Description:
+.head 6 -  Returns
+.head 6 -  Parameters
+.head 6 -  Static Variables
+.head 6 -  Local variables
+.head 6 +  Actions
+.head 7 -  Call AssertIsTrue( IsWhitespace( '	'), '' )
+.head 5 +  Function: IsWhiteSpace_CR_True
+.head 6 -  Description:
+.head 6 -  Returns
+.head 6 -  Parameters
+.head 6 -  Static Variables
+.head 6 -  Local variables
+.head 6 +  Actions
+.head 7 -  Call AssertIsTrue( IsWhitespace( SalNumberToChar(13)), '' )
+.head 5 +  Function: IsWhiteSpace_LF_True
+.head 6 -  Description:
+.head 6 -  Returns
+.head 6 -  Parameters
+.head 6 -  Static Variables
+.head 6 -  Local variables
+.head 6 +  Actions
+.head 7 -  Call AssertIsTrue( IsWhitespace( SalNumberToChar(10)), '' )
+.head 2 +  Default Classes
+.head 3 -  MDI Window: cBaseMDI
+.head 3 -  Form Window:
+.head 3 -  Dialog Box:
+.head 3 -  Table Window:
+.head 3 -  Quest Window:
+.head 3 -  Data Field:
+.head 3 -  Spin Field:
+.head 3 -  Multiline Field:
+.head 3 -  Pushbutton:
+.head 3 -  Radio Button:
+.head 3 -  Option Button:
+.head 3 -  Check Box:
+.head 3 -  Child Table:
+.head 3 -  Quest Child Window: cQuickDatabase
+.head 3 -  List Box:
+.head 3 -  Combo Box:
+.head 3 -  Picture:
+.head 3 -  Vertical Scroll Bar:
+.head 3 -  Horizontal Scroll Bar:
+.head 3 -  Column:
+.head 3 -  Background Text:
+.head 3 -  Group Box:
+.head 3 -  Line:
+.head 3 -  Frame:
+.head 3 -  Custom Control:
+.head 3 -  ActiveX:
+.head 2 -  Application Actions
